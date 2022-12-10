@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Minecraft;
+    src: url('https://minecraft--duck132912.repl.co/minecraft.ttf');
+}
+html {
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    background: #303030 url('https://minecraft--duck132912.repl.co/minecraft.jpg')repeat-x 0 0;
+    background-size: cover;
+    animation: MinecraftBackground 165s linear infinite;
+    text-align: center;
+    font-family: Minecraft;
+    text-shadow: 0.2vh 8.2vh 0 #383838;
+    min-height: 100%; 
+}
+main {
+    padding: 8% 30% 0 30%;
+}
+img, main, div {
+    image-rendering: pixelated;
+}
+#logo {
+    margin-top: 5%;
+    width: 50%;
+}
